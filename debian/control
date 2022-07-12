@@ -1,0 +1,12 @@
+Source: ros-foxy-raspimouse-description
+Section: misc
+Priority: optional
+Maintainer: RT Corporation <shop@rt-net.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ament-lint-auto <!nocheck>, ros-foxy-ament-lint-common <!nocheck>, ros-foxy-joint-state-publisher, ros-foxy-joint-state-publisher-gui, ros-foxy-robot-state-publisher, ros-foxy-rviz2, ros-foxy-urdf, ros-foxy-xacro, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-raspimouse-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-joint-state-publisher, ros-foxy-joint-state-publisher-gui, ros-foxy-robot-state-publisher, ros-foxy-rviz2, ros-foxy-urdf, ros-foxy-xacro, ros-foxy-ros-workspace
+Description: The raspimouse_description package
